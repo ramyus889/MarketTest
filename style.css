@@ -40,10 +40,10 @@
 .wine,
 .milk,
 .cake,
-.chese,
+.cheese,
 .beef,
 .chicken,
-.cheeps,
+.chips,
 .pineapple,
 .banana,
 .apple,
@@ -61,7 +61,7 @@
 .cake {
   left: 180px;
 }
-.chese {
+.cheese {
   left: 230px;
 }
 .beef {
@@ -70,7 +70,7 @@
 .chicken {
   left: 140px;
 }
-.cheeps {
+.chips {
   left: 200px;
 }
 .pineapple {
@@ -118,10 +118,10 @@
 .basket-1 .wine,
 .basket-1 .milk,
 .basket-1 .cake,
-.basket-1 .chese,
+.basket-1 .cheese,
 .basket-2 .beef,
 .basket-2 .chicken,
-.basket-2 .cheeps,
+.basket-2 .chips,
 .basket-3 .pineapple,
 .basket-3 .banana,
 .basket-3 .apple,
