@@ -3,6 +3,7 @@
   height: 600px;
   position: relative;
 }
+
 .flex {
   display: flex;
   justify-content: center;
@@ -15,219 +16,134 @@
   height: 570px;
 }
 
-.section-1 {
+.section-1,
+.section-2,
+.section-3 {
   position: relative;
-  top: -310px;
   left: -75px;
   display: flex;
   align-items: end;
 }
 
-.wine {
+.section-1 {
+  top: -310px;
+}
+
+.section-2 {
+  top: -215px;
+}
+
+.section-3 {
+  top: -115px;
+}
+
+.wine,
+.milk,
+.cake,
+.chese,
+.beef,
+.chicken,
+.cheeps,
+.pineapple,
+.banana,
+.apple,
+.salad {
   position: absolute;
   cursor: grab;
+}
+
+.wine {
   left: 100px;
 }
-
 .milk {
-  position: absolute;
-  cursor: grab;
   left: 140px;
 }
-
 .cake {
-  position: absolute;
-  cursor: grab;
   left: 180px;
 }
-
 .chese {
-  position: absolute;
-  cursor: grab;
+  left: 230px;
+}
+.beef {
+  left: 80px;
+}
+.chicken {
+  left: 140px;
+}
+.cheeps {
+  left: 200px;
+}
+.pineapple {
+  left: 85px;
+}
+.banana {
+  left: 130px;
+}
+.apple {
+  left: 190px;
+}
+.salad {
   left: 230px;
 }
 
-.basket-1 {
+.basket-1,
+.basket-2,
+.basket-3 {
   width: 200px;
   height: 200px;
-  background-color: #91919100;
   display: flex;
   align-items: end;
   position: relative;
-  top: -110px;
   left: 40px;
+}
+
+.basket-1 {
+  background-color: #91919100;
+  top: -110px;
   z-index: 5;
 }
 
 .basket-2 {
-  width: 200px;
-  height: 200px;
   background-color: #934f4f00;
-  display: flex;
-  align-items: end;
-  position: relative;
   top: -310px;
-  left: 40px;
   z-index: 4;
 }
 
 .basket-3 {
-  width: 200px;
-  height: 200px;
   background-color: #76bd7f00;
-  display: flex;
-  align-items: end;
-  position: relative;
   top: -510px;
-  left: 40px;
   z-index: 3;
 }
 
-.basket-1 .wine {
-  display: block;
-  position: static;
-}
-
-.basket-1 .milk {
-  display: block;
-  position: static;
-}
-
-.basket-1 .cake {
-  display: block;
-  position: static;
-}
-
-.basket-1 .chese {
-  display: block;
-  position: static;
-}
-
-.section-2 {
-  position: relative;
-  top: -215px;
-  left: -75px;
-  display: flex;
-  align-items: end;
-}
-
-.beef {
-  position: absolute;
-  cursor: grab;
-  left: 80px;
-}
-
-.chicken {
-  position: absolute;
-  cursor: grab;
-  left: 140px;
-}
-
-.cheeps {
-  position: absolute;
-  cursor: grab;
-  left: 200px;
-}
-
-.basket-2 .beef {
-  display: block;
-  position: static;
-}
-
-.basket-2 .chicken {
-  display: block;
-  position: static;
-}
-
-.basket-2 .cheeps {
-  display: block;
-  position: static;
-}
-
-.section-3 {
-  position: relative;
-  top: -115px;
-  left: -75px;
-  display: flex;
-  align-items: end;
-}
-
-.pineapple {
-  position: absolute;
-  cursor: grab;
-  left: 85px;
-}
-
-.banana {
-  position: absolute;
-  cursor: grab;
-  left: 130px;
-}
-
-.apple {
-  position: absolute;
-  cursor: grab;
-  left: 190px;
-}
-
-.salad {
-  position: absolute;
-  cursor: grab;
-  left: 230px;
-}
-
-.basket-3 .pineapple {
-  display: block;
-  position: static;
-}
-
-.basket-3 .banana {
-  display: block;
-  position: static;
-}
-
-.basket-3 .apple {
-  display: block;
-  position: static;
-}
-
+.basket-1 .wine,
+.basket-1 .milk,
+.basket-1 .cake,
+.basket-1 .chese,
+.basket-2 .beef,
+.basket-2 .chicken,
+.basket-2 .cheeps,
+.basket-3 .pineapple,
+.basket-3 .banana,
+.basket-3 .apple,
 .basket-3 .salad {
   display: block;
   position: static;
 }
 
-.basket-1 .item:nth-child(2) {
-  transform: translatex(-10px);
-}
-
-.basket-1 .item:nth-child(3) {
-  transform: translatex(-20px);
-}
-
-.basket-1 .item:nth-child(4) {
-  transform: translatex(-30px);
-}
-
-.basket-2 .item:nth-child(2) {
-  transform: translatex(-10px);
-}
-
-.basket-2 .item:nth-child(3) {
-  transform: translatex(-20px);
-}
-
-.basket-2 .item:nth-child(4) {
-  transform: translatex(-30px);
-}
-
+.basket-1 .item:nth-child(2),
+.basket-2 .item:nth-child(2),
 .basket-3 .item:nth-child(2) {
   transform: translatex(-10px);
 }
 
+.basket-1 .item:nth-child(3),
+.basket-2 .item:nth-child(3),
 .basket-3 .item:nth-child(3) {
   transform: translatex(-20px);
 }
 
+.basket-1 .item:nth-child(4),
+.basket-2 .item:nth-child(4),
 .basket-3 .item:nth-child(4) {
   transform: translatex(-30px);
 }
