@@ -167,8 +167,8 @@
   line-height: 17px;
   letter-spacing: -0.5%;
   position: absolute;
-  bottom: 50px;
-  left: 65px;
+  bottom: -10px;
+  left: 40px;
   z-index: 200;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 1s ease, opacity 1s ease-in-out;
